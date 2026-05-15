@@ -1,0 +1,12 @@
+track_id,label,confidence,first_frame
+1,undamaged,1.000,5
+4,undamaged,0.634,48
+6,undamaged,0.655,136
+8,undamaged,1.000,160
+10,undamaged,1.000,165
+13,damaged,1.000,209
+14,damaged,1.000,218
+21,undamaged,0.600,315
+27,damaged,1.000,347
+29,undamaged,1.000,386
+38,undamaged,1.000,421
