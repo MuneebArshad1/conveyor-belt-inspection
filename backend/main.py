@@ -76,7 +76,7 @@ app.mount("/outputs", StaticFiles(directory=str(OUTPUTS_DIR)), name="outputs")
 @app.get("/")
 def root():
     return {"ok": True, "docs": "/docs"}
-
+#convyor belt inspection
 
 def _run_job(job_id: str, video_path: Path) -> None:
     jobs[job_id] = Job(id=job_id, status="running")
